@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<body background="222.jpg" width="1000">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Группа "Дайте Танк"</title>
+    <style>
+        body {
+            background-color: #b7b7b7; /* Салатовый фон */
+            font-family: Courier New, monospace;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #999999; /* Цвет кнопок */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        } 
+		.disabled-button {
+            background-color: #666666; /* Серый цвет для неактивной кнопки */
+            pointer-events: none; /* Отключение клика */
+            cursor: not-allowed; /* Курсор при наведении */
+        }
+        a:hover {
+            background-color: #666666; /* Цвет кнопок при наведении */
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на сайт группы "Дайте Танк"!</h1>
+     </header>
+	   
+        <nav>
+		    <a href="#" class="disabled-button">Главная</a>
+            <a href="info.html">Общая информация</a>
+            <a href="history.html">История</a>
+            <a href="disc.html">Дискография</a>
+            <a href="ink.html">Источники</a>
+			<a href="zakaz.html">Заказать</a>
+			<a href="kontakt.html">Контакты</a>
+        </nav>
+    <main>
+        <img src="band.jpg" alt="Группа Дайте Танк" />
+        
+        <!-- Добавленный текст -->
+        <p>
+            Об этой группе написано столько, что вряд ли нам удалось бы добавить что-либо
+            новое. На нашем сайте вы найдете историю создания группы, биографии участников,
+            дискографию и фильмографию группы. Мы предлагаем вашему вниманию только достоверную информацию.
+            Это учебный сайт демонстрационного содержания. Его цель - отработка технологии
+            разметки гипертекстовых документов с помощью языка HTML. Более полную
+            информацию о группе The Beatles вы найдете на других сайтах. Приносим свои
+            извинения.
+        </p>
+    </main>
+    <footer>
+        <p>&copy; Все права защищены.</p>
+    </footer>
+</body>
+</html>
